@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a52cf00d-e7c0-444d-acc0-060ab49e5017" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2UzT4fwDbfFKnQUQOpo16zte73D" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a52cf00d-e7c0-444d-acc0-060ab49e5017" name="Default Changelist" comment="" />
+      <created>1693941219634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693941219634</updated>
+      <workItem from="1693941221452" duration="2551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="136" key="SettingsEditor" timestamp="1694022692738">
+      <screen x="0" y="25" width="1680" height="951" />
+    </state>
+    <state x="349" y="136" key="SettingsEditor/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694022692738" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1693941402475">
+      <screen x="0" y="25" width="1680" height="951" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1693941402475" />
+  </component>
+</project>
