@@ -17,17 +17,22 @@ void main(List<String> arguments) {
 
   double resultado = 0;
 
-  if (operacao == "+") {
-    resultado = numero1 + numero2;
-  } else if (operacao == "-") {
-    resultado = numero1 - numero2;
-  } else if (operacao == "*") {
-    resultado = numero1 * numero2;
-  } else if (operacao == "/") {
-    resultado = numero1 / numero2;
-  } else {
-    print("Operação Inválida");
-    exit(0);
+  switch(operacao){
+    case "+":
+      resultado = numero1 + numero2;
+      break;
+    case "-":
+      resultado = numero1 - numero2;
+      break;
+    case "*":
+      resultado = numero1 * numero2;
+      break;
+    case "/":
+      resultado = numero1 / numero2;
+      break;
+    default:
+      print("Operação Inválida");
+      exit(0);
   }
 
   print("Resultado = $numero1 $operacao $numero2 = $resultado");
