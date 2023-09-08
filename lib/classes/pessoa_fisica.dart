@@ -6,7 +6,8 @@ class PessoaFisica extends Pessoa {
 
   String _cpf;
 
-  PessoaFisica(String nome, String endereco, this._cpf, {TipoNotificacao tipoNotificacao = TipoNotificacao.NENHUM}): super(nome, endereco, tipoNotificacao);
+  PessoaFisica(String nome, String endereco, this._cpf, {TipoNotificacao tipoNotificacao = TipoNotificacao.NENHUM}):
+        super(nome, endereco, tipoNotificacao: tipoNotificacao);
 
   @override
   String toString() {

@@ -5,7 +5,8 @@ class PessoaJuridica extends Pessoa {
 
   String _cnpj;
 
-  PessoaJuridica(String nome, String endereco, this._cnpj, {TipoNotificacao tipoNotificacao = TipoNotificacao.NENHUM}): super(nome, endereco, tipoNotificacao);
+  PessoaJuridica(String nome, String endereco, this._cnpj, {TipoNotificacao tipoNotificacao = TipoNotificacao.NENHUM}):
+        super(nome, endereco, tipoNotificacao: tipoNotificacao);
 
   @override
   String toString() {
