@@ -1,4 +1,4 @@
-import 'package:meu_app_dart/classes/pessoa.dart';
+import 'package:meu_app_dart/classes/pessoa_abstract.dart';
 import 'package:meu_app_dart/enum/tipo_notificacao.dart';
 
 class PessoaJuridica extends Pessoa {

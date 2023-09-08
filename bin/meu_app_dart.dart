@@ -1,4 +1,4 @@
-import 'package:meu_app_dart/classes/pessoa.dart';
+import 'package:meu_app_dart/classes/pessoa_abstract.dart';
 import 'package:meu_app_dart/classes/pessoa_fisica.dart';
 import 'package:meu_app_dart/classes/pessoa_juridica.dart';
 import 'package:meu_app_dart/enum/tipo_notificacao.dart';

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a52cf00d-e7c0-444d-acc0-060ab49e5017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/enum/tipo_notificacao.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/meu_app_dart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/meu_app_dart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/classes/pessoa.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/classes/pessoa.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/classes/pessoa_fisica.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/classes/pessoa_fisica.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/classes/pessoa_juridica.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/classes/pessoa_juridica.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693941219634</updated>
-      <workItem from="1693941221452" duration="9771000" />
+      <workItem from="1693941221452" duration="10983000" />
     </task>
     <task id="LOCAL-00001" summary="add código de uma calculadora em dart">
       <created>1694024899828</created>
@@ -140,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694200509720</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="usando enum">
+      <created>1694200961128</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694200961128</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,24 +156,25 @@
     <MESSAGE value="ajuste o gitignore" />
     <MESSAGE value="add classe pessoa e pessoa fisica para demonstrar funcionamento de herença" />
     <MESSAGE value="alterado classe Pessoa para abstract" />
-    <option name="LAST_COMMIT_MESSAGE" value="alterado classe Pessoa para abstract" />
+    <MESSAGE value="usando enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="usando enum" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="106" key="CommitChangelistDialog2" timestamp="1694200509598">
+    <state x="425" y="106" key="CommitChangelistDialog2" timestamp="1694200961000">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694025176439" />
     <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694191118984" />
-    <state x="425" y="106" key="CommitChangelistDialog2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694200509598" />
+    <state x="425" y="106" key="CommitChangelistDialog2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694200960999" />
     <state x="349" y="136" key="SettingsEditor" timestamp="1694022692738">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state x="349" y="136" key="SettingsEditor/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694022692738" />
-    <state x="440" y="241" key="Vcs.Push.Dialog.v2" timestamp="1694200502598">
+    <state x="440" y="241" key="Vcs.Push.Dialog.v2" timestamp="1694200962368">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="440" y="225" key="Vcs.Push.Dialog.v2/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694025177821" />
-    <state x="440" y="241" key="Vcs.Push.Dialog.v2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694200502598" />
+    <state x="440" y="241" key="Vcs.Push.Dialog.v2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694200962368" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1694196142845">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
