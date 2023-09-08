@@ -1,18 +1,18 @@
 import 'package:meu_app_dart/classes/pessoa.dart';
 
-class PessoaFisica extends Pessoa {
+class PessoaJuridica extends Pessoa {
 
-  String _cpf;
+  String _cnpj;
 
-  PessoaFisica(String nome, String endereco, this._cpf): super(nome, endereco);
+  PessoaJuridica(String nome, String endereco, this._cnpj): super(nome, endereco);
 
   @override
   String toString() {
     return {
-      "Tipo" : "Fisica",
+      "Tipo" : "Juridica",
       "Nome" : super.getNome(),
       "Endereço" : super.getEndereco(),
-      "CPF" : _cpf
+      "CNPJ" : _cnpj
     }.toString();
   }
 }

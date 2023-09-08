@@ -1,5 +1,6 @@
 import 'package:meu_app_dart/classes/pessoa.dart';
 import 'package:meu_app_dart/classes/pessoa_fisica.dart';
+import 'package:meu_app_dart/classes/pessoa_juridica.dart';
 
 void main(List<String> arguments) {
   var pessoa = Pessoa("Mauro","Endereço");
@@ -7,4 +8,7 @@ void main(List<String> arguments) {
 
   var pessoaFisica = PessoaFisica("Mauro","Endereço", "123456789");
   print(pessoaFisica.toString());
+
+  var pessoaJuridica = PessoaJuridica("Empresa ALBR","Endereço", "11111");
+  print(pessoaJuridica.toString());
 }
