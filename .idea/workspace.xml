@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a52cf00d-e7c0-444d-acc0-060ab49e5017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/apps/meu_app_soma_notas_dart.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apps/meu_app_tratamento_erros_dart.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/classes/aluno.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/exception/nome_invalido_exception.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/console_utils.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/meu_app_dart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/meu_app_dart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apps/meu_app_calculadora_dart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apps/meu_app_calculadora_dart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apps/meu_app_calculadora_nota_escolar_dart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apps/meu_app_calculadora_nota_escolar_dart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apps/meu_app_envia_notificacao_dart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apps/meu_app_envia_notificacao_dart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +45,18 @@
       <recent name="$PROJECT_DIR$/bin" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="meu_app_dart_test.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/meu_app_dart_test.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Command Line App.meu_app_dart_test.dart" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693941219634</updated>
-      <workItem from="1693941221452" duration="16655000" />
+      <workItem from="1693941221452" duration="18034000" />
     </task>
     <task id="LOCAL-00001" summary="add código de uma calculadora em dart">
       <created>1694024899828</created>
@@ -184,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694205097777</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="tratamento de erros, criado exception customizada">
+      <created>1694208126604</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1694208126604</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,25 +212,43 @@
     <MESSAGE value="usando enum" />
     <MESSAGE value="usando e implementando interfaces" />
     <MESSAGE value="criado pasta apps com todos os main de cada exemplo aprendido em aula" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado pasta apps com todos os main de cada exemplo aprendido em aula" />
+    <MESSAGE value="tratamento de erros, criado exception customizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="tratamento de erros, criado exception customizada" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="106" key="CommitChangelistDialog2" timestamp="1694205097647">
+    <state x="425" y="106" key="CommitChangelistDialog2" timestamp="1694208126458">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694025176439" />
     <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694191118984" />
-    <state x="425" y="106" key="CommitChangelistDialog2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694205097647" />
+    <state x="425" y="106" key="CommitChangelistDialog2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694208126458" />
+    <state width="1638" height="304" key="GridCell.Tab.0.bottom" timestamp="1694211883524">
+      <screen x="0" y="25" width="1680" height="954" />
+    </state>
+    <state width="1638" height="304" key="GridCell.Tab.0.bottom/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694211883524" />
+    <state width="1638" height="304" key="GridCell.Tab.0.center" timestamp="1694211883524">
+      <screen x="0" y="25" width="1680" height="954" />
+    </state>
+    <state width="1638" height="304" key="GridCell.Tab.0.center/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694211883524" />
+    <state width="1638" height="304" key="GridCell.Tab.0.left" timestamp="1694211883523">
+      <screen x="0" y="25" width="1680" height="954" />
+    </state>
+    <state width="1638" height="304" key="GridCell.Tab.0.left/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694211883523" />
+    <state width="1638" height="304" key="GridCell.Tab.0.right" timestamp="1694211883524">
+      <screen x="0" y="25" width="1680" height="954" />
+    </state>
+    <state width="1638" height="304" key="GridCell.Tab.0.right/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694211883524" />
     <state x="349" y="145" key="SettingsEditor" timestamp="1694204161820">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="349" y="136" key="SettingsEditor/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694022692738" />
     <state x="349" y="145" key="SettingsEditor/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694204161820" />
-    <state x="440" y="241" key="Vcs.Push.Dialog.v2" timestamp="1694204406784">
-      <screen x="0" y="25" width="1680" height="1025" />
+    <state x="440" y="226" key="Vcs.Push.Dialog.v2" timestamp="1694208582452">
+      <screen x="0" y="25" width="1680" height="954" />
     </state>
     <state x="440" y="225" key="Vcs.Push.Dialog.v2/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694025177821" />
-    <state x="440" y="241" key="Vcs.Push.Dialog.v2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694204406784" />
+    <state x="440" y="226" key="Vcs.Push.Dialog.v2/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694208582452" />
+    <state x="440" y="241" key="Vcs.Push.Dialog.v2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694208127842" />
     <state x="500" y="264" width="680" height="472" key="find.popup" timestamp="1694205134075">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
