@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a52cf00d-e7c0-444d-acc0-060ab49e5017" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/service/enviar_notificacao.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/service/impl/notificacao_email.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/service/impl/notificacao_push.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/service/impl/notificacao_sms.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/service/interfaces/notificacao_interface.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/classes/pessoa_abstract.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/classes/pessoa_abstract.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/classes/pessoa_fisica.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/classes/pessoa_fisica.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/classes/pessoa_juridica.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/classes/pessoa_juridica.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/meu_app_dart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/meu_app_dart.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +31,18 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/classes" />
-    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/service/impl" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/service/interfaces" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/bin/calculadora" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/service/impl" />
       <recent name="$PROJECT_DIR$/lib/classes" />
       <recent name="$PROJECT_DIR$/bin" />
     </key>
@@ -52,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693941219634</updated>
-      <workItem from="1693941221452" duration="11508000" />
+      <workItem from="1693941221452" duration="12834000" />
     </task>
     <task id="LOCAL-00001" summary="add código de uma calculadora em dart">
       <created>1694024899828</created>
@@ -152,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694202404117</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="usando enum">
+      <created>1694203022913</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694203022913</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,16 +182,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="usando enum" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="106" key="CommitChangelistDialog2" timestamp="1694202403978">
+    <state x="425" y="106" key="CommitChangelistDialog2" timestamp="1694203022792">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694025176439" />
     <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694191118984" />
-    <state x="425" y="106" key="CommitChangelistDialog2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694202403978" />
-    <state x="349" y="136" key="SettingsEditor" timestamp="1694022692738">
-      <screen x="0" y="25" width="1680" height="951" />
+    <state x="425" y="106" key="CommitChangelistDialog2/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694203022792" />
+    <state x="349" y="145" key="SettingsEditor" timestamp="1694204161820">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="349" y="136" key="SettingsEditor/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694022692738" />
+    <state x="349" y="145" key="SettingsEditor/-2560.-836.2560.974/0.25.1680.1025@0.25.1680.1025" timestamp="1694204161820" />
     <state x="440" y="241" key="Vcs.Push.Dialog.v2" timestamp="1694200962368">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -193,5 +206,21 @@
       <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1693941402475" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/service/enviar_notificacao.dart</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/bin/meu_app_dart.dart</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
