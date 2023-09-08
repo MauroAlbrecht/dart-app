@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-void main(List<String> arguments) {
+void calculadora(List<String> arguments) {
   print("Bem vindo a nossa Calculadora");
   print("Informe o primeiro número");
   var line = stdin.readLineSync(encoding: utf8);

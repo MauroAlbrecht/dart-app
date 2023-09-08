@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-void calculadora(List<String> arguments) {
+void calculadoraNotaEscolar(List<String> arguments) {
   print("Informe a nota da prova 1");
   var line = stdin.readLineSync(encoding: utf8);
   var prova1 = int.parse(line ?? "0");
