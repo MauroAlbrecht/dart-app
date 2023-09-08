@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a52cf00d-e7c0-444d-acc0-060ab49e5017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/calculadora_dart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/calculadora_media_escolar_dart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/calculadora_media_escolar_dart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/meu_app_dart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/meu_app_dart.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693941219634</updated>
-      <workItem from="1693941221452" duration="4763000" />
+      <workItem from="1693941221452" duration="5381000" />
     </task>
     <task id="LOCAL-00001" summary="add código de uma calculadora em dart">
       <created>1694024899828</created>
@@ -64,7 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694025176578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="renomeando arquivos">
+      <created>1694191113121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694191113121</updated>
+    </task>
+    <task id="LOCAL-00004" summary="renomeando arquivos">
+      <created>1694191119097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694191119097</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,14 +84,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add código de uma calculadora em dart" />
     <MESSAGE value="usando switch case na cálculadora" />
-    <option name="LAST_COMMIT_MESSAGE" value="usando switch case na cálculadora" />
+    <MESSAGE value="renomeando arquivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="renomeando arquivos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="100" key="CommitChangelistDialog2" timestamp="1694191112957">
+    <state x="425" y="100" key="CommitChangelistDialog2" timestamp="1694191118984">
       <screen x="0" y="25" width="1680" height="954" />
     </state>
     <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.951@0.25.1680.951" timestamp="1694025176439" />
-    <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694191112957" />
+    <state x="425" y="100" key="CommitChangelistDialog2/-2560.-836.2560.1055/0.25.1680.954@0.25.1680.954" timestamp="1694191118984" />
     <state x="349" y="136" key="SettingsEditor" timestamp="1694022692738">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
