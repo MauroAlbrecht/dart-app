@@ -3,7 +3,7 @@ import 'package:meu_app_dart/classes/pessoa_juridica.dart';
 import 'package:meu_app_dart/enum/tipo_notificacao.dart';
 import 'package:meu_app_dart/service/enviar_notificacao.dart';
 
-/*void main(List<String> arguments) {
+void main(List<String> arguments) {
 
   //classe abstrata não pode ser instanciada
   //var pessoa = Pessoa("Mauro","Endereço");
@@ -20,4 +20,4 @@ import 'package:meu_app_dart/service/enviar_notificacao.dart';
   enviarNotificacao.notificar(pessoaFisica);
   enviarNotificacao.notificar(pessoaJuridica);
 
-}*/
+}
